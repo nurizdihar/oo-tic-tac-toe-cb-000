@@ -86,7 +86,7 @@ class TicTacToe
     @board.each do |position|
       if position == "X" || position == "O"
         filled += 1
-      else
+      elsif position == " " || position == ""
         filled += 0
       end
     end
