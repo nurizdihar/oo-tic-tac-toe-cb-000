@@ -81,6 +81,18 @@ class TicTacToe
     end
   end
 
+  def full?
+    filled = 0
+    @board.each do |position|
+      if position == "X" || position == "O"
+        filled += 1
+      end
+    end
+    if filled = 9
+      return true
+    end
+  end
+  
 
 
 
