@@ -90,6 +90,8 @@ class TicTacToe
     end
     if filled = 9
       return true
+    else
+      return false
     end
   end
   
