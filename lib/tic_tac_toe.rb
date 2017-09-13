@@ -130,9 +130,9 @@ end
       turn
     end
     if won?
-      return "Congratulations #{winner}!"
+      puts "Congratulations #{winner}!"
     elsif draw?
-      return "Cat's Game!"
+      puts "Cat's Game!"
     end
   end
 
