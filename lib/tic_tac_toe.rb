@@ -76,7 +76,7 @@ class TicTacToe
         won = 1
       end
     end
-    if won = 0
+    if won == 0
       return false
     end
   end
